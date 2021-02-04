@@ -1,0 +1,54 @@
+.about{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.about-kiri{
+    margin-left: 150px;
+}
+
+.jarak .col-lg-8 p{
+    margin-top: 50px;
+}
+
+.info-panel{
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.info-panel .col-lg img{
+    width:100px;
+    height:100px;
+}
+
+.contactH6{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+}
+
+.jarakPanel{
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.team{
+    width: 100%;
+    height: 300px;
+}
+
+.info-panel .text-center{
+    margin-right: 50px;
+}
+
+i{
+    filter: grayscale(1);
+}
+
+i:hover{
+    filter: grayscale(0);
+}

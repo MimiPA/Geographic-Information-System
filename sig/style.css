@@ -1,0 +1,90 @@
+.bg-navbar{
+    opacity:0.80;
+    background-color: rgb(248, 244, 185);
+}
+
+.profil{
+    width: 30px;
+    height: 30px;
+}
+
+.active::after, .nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom :3.5px solid #0528f1;
+    width:75%;
+    margin:auto;
+    padding-bottom: 3px;
+    margin-bottom: -8px;
+}
+
+.garis{
+    border-bottom : 5px double #1100ff;
+    font-family: 'Chocolate Crispy';
+    font-size: 70px;
+}
+
+.judul-icon{
+    color: yellow;
+    margin-top: 15px;
+    font-family: 'Hobo Std';
+}
+
+.carousel-caption{
+    color: yellow;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+.jarak{
+    padding-top: 90px;
+}
+
+.atas{
+    padding-top: 50px;
+}
+
+.info-meta{
+    padding-top: 20px;
+    color: #999999;
+}
+
+.artikel{
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.gallery{
+    width: 540px;
+    height: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.contact-footer{
+    width:50px;
+    height:50px;
+    background-color:white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+.menus-footer{
+    margin-left: 20px;
+}
+
+.modalku{
+    width: 50%;
+}
